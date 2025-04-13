@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OZ Coding Mentoring
 
-## Getting Started
+Next.js와 TypeScript를 사용한 모던 웹 애플리케이션 프로젝트입니다.
 
-First, run the development server:
+## 기술 스택
+
+- Next.js 14.1.0
+- React 18.2.0
+- TypeScript 5.3.3
+- TailwindCSS
+- Jest & React Testing Library
+
+## 시작하기
+
+1. 저장소 클론:
+
+```bash
+git clone https://github.com/yunsung-hodoopapa/oz_coding_mentoring.git
+cd oz_coding_mentoring
+```
+
+2. 의존성 설치:
+
+```bash
+npm install
+```
+
+3. 개발 서버 실행:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. 브라우저에서 확인:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 문서
 
-## Learn More
+자세한 설정 및 개발 가이드는 다음 문서를 참조하세요:
 
-To learn more about Next.js, take a look at the following resources:
+- [프로젝트 설정 가이드](docs/project-setup.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 사용 가능한 스크립트
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev`: 개발 서버 실행
+- `npm run build`: 프로덕션 빌드
+- `npm run start`: 프로덕션 서버 실행
+- `npm run lint`: 린트 검사
+- `npm run test`: 테스트 실행
 
-## Deploy on Vercel
+## 라이선스
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
